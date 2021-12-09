@@ -15,7 +15,7 @@
 	insteadOf = ssh://git@github.com/Shopify/
 	insteadOf = ssh://git@github.com/shopify/
 [alias]
-        cm = checkout master
+        cm = checkout main
         fo = fetch origin
         co = checkout
         ci = commit
@@ -23,8 +23,8 @@
         br = branch
         sa = stash apply
         po = push origin
-        pom = pull origin master
-        rbm = rebase -i master
+        pom = pull origin main
+        rbm = rebase -i main
         rb2 = rebase -i HEAD~2
         rb3 = rebase -i HEAD~3
         ca = commit --amend
