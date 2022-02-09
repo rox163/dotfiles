@@ -1,3 +1,5 @@
 ln -sf ~/dotfiles/gitconfig ~/.gitconfig
 
 SPINX_ENABLE_SOURCEMAPS=true
+export VISUAL=vim
+export EDITOR="$VISUAL"
